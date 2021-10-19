@@ -1,0 +1,173 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*Header Starts*/
+	header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+	text-align: right;
+	padding: 10px 0 !important;
+}
+/*Header Ends*/
+
+/*Slider Starts*/
+.c_text {
+    margin-top: 5px;
+    text-align: center;
+}
+.c_text h1{
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+.c_text h2 {
+	margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 22px;
+    font-size: 18px;
+}
+.c_text p{
+	margin-bottom: 25px;
+}
+.c_text ul li i {
+    font-size: 35px;
+    margin-right: 25px;
+}
+/*Slider Ends*/
+.items{
+	text-align: center;
+}
+.f_icon i {
+    margin-bottom: 15px;
+}
+.f_text p {
+    margin-right: 0px;
+}
+
+/*footer starts*/
+.fotext{
+	text-align: center;
+	margin-bottom: 40px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*Header Starts*/
+	header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+	text-align: right;
+	padding: 10px 0 !important;
+}
+/*Header Ends*/	
+
+/*Slider Starts*/
+.c_text {
+    margin-top: 5px;
+    text-align: center;
+}
+.c_text h2 {
+	margin-right: 90px;
+    margin-left: 90px;
+}
+.c_text ul li i {
+    font-size: 35px;
+    margin-right: 25px;
+}
+/*Slider Ends*/
+
+/*Features Starts*/
+.items{
+	text-align: center;
+}
+.f_icon i {
+    margin-bottom: 15px;
+}
+.f_text p {
+    margin-right: 0px;
+}
+/*Feature Ends*/
+
+/*footer starts*/
+.fotext{
+	text-align: center;
+	margin-bottom: 40px;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*Header Starts*/
+header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+	text-align: right;
+	padding: 10px 0 !important;
+}
+/*Header Ends*/
+
+/*Slider Starts*/
+.c_text p {
+    margin-right: 25px;
+}
+/*Slider Ends*/
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*Header Starts*/
+.menu ul li a{
+	padding: 0 34px !important;
+}
+/*Header Ends*/
+
+/*Slider Starts*/
+.c_text h2 {
+   margin-right: 60px;
+}
+.c_text p {
+    margin-right: -16px;
+}
+/*Slider Ends*/
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*Header Starts*/
+.menu ul li a{
+	padding: 0 44px !important;
+}
+/*Header Ends*/
+
+/*Slider Starts*/
+.c_text h2 {
+   margin-right: 140px;
+}
+.c_text p {
+    margin-right: 60px;
+}
+/*Slider Ends*/
+}
+/* Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*Header Starts*/
+.menu ul li a{
+	padding: 0 53px !important;
+}
+/*Header Ends*/
+
+/*Slider Starts*/
+.c_text h2 {
+    margin-right: 140px;
+}
+.c_text p {
+    margin-right: 90px;
+}
+/*Slider Ends*/	
+
+}
